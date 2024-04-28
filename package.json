@@ -2,20 +2,20 @@
   "name": "sftp",
   "displayName": "SFTP",
   "description": "SFTP/FTP sync",
-  "version": "1.16.3",
-  "publisher": "Natizyskunk",
-  "author": "Natizyskunk <natan.fourie@hotmail.fr> (https://github.com/Natizyskunk)",
+  "version": "1.16.4",
+  "publisher": "Naji Amer",
+  "author": "Naji Amer <icu090@gmail.com> (https://github.com/n-for-all)",
   "engines": {
     "vscode": "^1.64.2"
   },
   "bugs": {
-    "url": "https://github.com/Natizyskunk/vscode-sftp/issues",
-    "email": "natan.fourie@hotmail.fr"
+    "url": "https://github.com/n-for-all/vscode-sftp/issues",
+    "email": "icu090@gmail.com"
   },
-  "homepage": "https://github.com/Natizyskunk/vscode-sftp/blob/master/README.md",
+  "homepage": "https://github.com/n-for-all/vscode-sftp/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Natizyskunk/vscode-sftp.git"
+    "url": "https://github.com/n-for-all/vscode-sftp.git"
   },
   "license": "MIT",
   "categories": [
@@ -77,6 +77,16 @@
       {
         "command": "sftp.config",
         "title": "Config",
+        "category": "SFTP"
+      },
+      {
+        "command": "sftp.pause",
+        "title": "Pause Auto Transfers",
+        "category": "SFTP"
+      },
+      {
+        "command": "sftp.disable",
+        "title": "Toggle Disable",
         "category": "SFTP"
       },
       {
@@ -708,7 +718,7 @@
     "typescript": "^3.9.7",
     "typescript-tslint-plugin": "^1.0.2",
     "webpack": "^5.0.0",
-    "webpack-cli": "^4.7.0",
+    "webpack-cli": "^4.10.0",
     "yargs-parser": "^20.2.4"
   },
   "dependencies": {

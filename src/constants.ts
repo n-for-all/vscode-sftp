@@ -15,6 +15,8 @@ export const COMMAND_TOGGLE_OUTPUT = 'sftp.toggleOutput';
 
 // commands in package.json
 export const COMMAND_CONFIG = 'sftp.config';
+export const COMMAND_PAUSE = 'sftp.pause';
+export const COMMAND_DISABLE = 'sftp.disable';
 export const COMMAND_SET_PROFILE = 'sftp.setProfile';
 export const COMMAND_CANCEL_ALL_TRANSFER = 'sftp.cancelAllTransfer';
 export const COMMAND_OPEN_CONNECTION_IN_TERMINAL = 'sftp.openConnectInTerminal';
