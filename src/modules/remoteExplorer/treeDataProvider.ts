@@ -137,7 +137,8 @@ export default class RemoteTreeData
 
     const root = this.findRoot(item.resource.uri);
     if (!root) {
-      throw new Error(`Can't find config for remote resource ${item.resource.uri}.`);
+      console.warn(`Can't find config for remote resource ${item.resource.uri}.`);
+      return this._getRoots();
     }
     const config = root.explorerContext.config;
     const remotefs = await root.explorerContext.fileService.getRemoteFileSystem(config);
